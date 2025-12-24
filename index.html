@@ -1,23 +1,436 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  
+    <title>딱 삼 분만 투자해서 백만 원 아껴라 이사 비용 파괴하는 필수 사이트들</title>
+
+
+  
+    <style>
+        :root {
+            --bg-color: #f8faff;
+            --primary-accent: #6c63ff;
+            --secondary-accent: #ff6b6b;
+            --text-main: #2d3436;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: linear-gradient(135deg, #6c63ff, #a29bfe);
+            color: white;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(108, 99, 255, 0.2);
+        }
+
+        header h1 { margin: 0; font-size: 2.5rem; letter-spacing: -1px; }
+        header p { opacity: 0.9; font-weight: 300; }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+        }
+
+        .category-section {
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .category-section:hover { transform: translateY(-5px); }
+
+        .category-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--primary-accent);
+            color: var(--primary-accent);
+        }
+
+        .link-item {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 12px;
+            background: #f1f3f9;
+            transition: all 0.2s ease;
+            border-left: 5px solid transparent;
+        }
+
+        .link-item:hover {
+            background: #fff;
+            border-left: 5px solid var(--secondary-accent);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .link-name {
+            display: block;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .link-desc {
+            display: block;
+            font-size: 0.9rem;
+            color: #636e72;
+            font-style: italic;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 40px;
+            font-size: 0.9rem;
+            color: #b2bec3;
+        }
+
+        @media (max-width: 768px) {
+            .container { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>딱 삼 분만 투자해서 백만 원 아껴라 이사 비용 파괴하는 필수 사이트들</h1>
+</header>
+
+<div class="container">
+    <div class="category-section">
+        <div class="category-title">📍 수도권 지역 맞춤 이사</div>
+        <a href="https://movinglkindk.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">안양이삿짐센터</span>
+            <span class="link-desc">안양의 복잡한 골목도 막힘없이, 베테랑의 손길로 운반합니다.</span>
+        </a>
+        <a href="https://movinglkindv.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">안성이삿짐센터</span>
+            <span class="link-desc">안성맞춤이라는 말처럼, 당신의 공간에 딱 맞는 이사를 선사합니다.</span>
+        </a>
+        <a href="https://movingmkindg.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">중랑구이삿짐센터</span>
+            <span class="link-desc">서울의 정을 담아, 중랑구 곳곳으로 당신의 꿈을 옮겨드립니다.</span>
+        </a>
+        <a href="https://movingmkindo.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">노원구포장이사</span>
+            <span class="link-desc">섬세함의 끝판왕! 노원구의 새로운 보금자리를 빛내드립니다.</span>
+        </a>
+        <a href="https://movingmkindw.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">중랑구포장이사</span>
+            <span class="link-desc">포장부터 배치까지, 예술처럼 승화시킨 완벽한 중랑구 이사.</span>
+        </a>
+        <a href="https://movingmkindx.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">일산이삿짐센터</span>
+            <span class="link-desc">신도시의 감각을 아는 일산 전문가들이 당신을 기다립니다.</span>
+        </a>
+        <a href="https://movingokindh.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">송파구이삿짐센터</span>
+            <span class="link-desc">품격 있는 송파 라이프의 시작, 정성스러운 포장으로 답합니다.</span>
+        </a>
+        <a href="https://movingokindj.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">의정부이사업체</span>
+            <span class="link-desc">의정부의 지름길을 꿰고 있는 신속하고 정확한 무빙 서비스.</span>
+        </a>
+    </div>
+
+    <div class="category-section">
+        <div class="category-title">🌊 경상권 믿음직한 이사</div>
+        <a href="https://movinglkindm.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">경산포장이사</span>
+            <span class="link-desc">경산의 햇살만큼 따뜻한 서비스로 고객님의 짐을 보호합니다.</span>
+        </a>
+        <a href="https://movinglkindt.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">부산포장이사잘하는곳</span>
+            <span class="link-desc">부산항의 활기처럼 파이팅 넘치는 전문가들이 출동합니다!</span>
+        </a>
+        <a href="https://movingmkindj.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">부산이사비용</span>
+            <span class="link-desc">부산 갈매기도 놀랄 합리적인 가격, 투명한 견적을 확인하세요.</span>
+        </a>
+        <a href="https://movingnkinda.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">기장포장이사</span>
+            <span class="link-desc">기장 바다처럼 넓은 마음으로 모든 짐을 넉넉히 수용합니다.</span>
+        </a>
+        <a href="https://movingnkindh.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">창원포장이사추천</span>
+            <span class="link-desc">창원 시민들이 입을 모아 칭찬하는 디테일의 차이를 경험하세요.</span>
+        </a>
+        <a href="https://movingnkinds.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">마산이삿짐센터</span>
+            <span class="link-desc">마산 아지매의 정성처럼 꼼꼼하게 당신의 살림을 챙깁니다.</span>
+        </a>
+        <a href="https://movingnkindt.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">대구이삿짐센터추천</span>
+            <span class="link-desc">대구의 열정보다 뜨거운 서비스 정신으로 무장한 이사팀.</span>
+        </a>
+        <a href="https://movingokindm.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">부산포장이사비용</span>
+            <span class="link-desc">거품은 빼고 정성만 채운 부산 프리미엄 이사 가격표.</span>
+        </a>
+    </div>
+
+    <div class="category-section">
+        <div class="category-title">📊 똑똑한 견적 & 비용 비교</div>
+        <a href="https://movinglkindn.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">일반이사견적</span>
+            <span class="link-desc">단 1분의 투자로 당신의 이사 예산을 완벽하게 설계해 드립니다.</span>
+        </a>
+        <a href="https://movinglkindu.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">대전이사비용</span>
+            <span class="link-desc">대전에서 가장 경제적인 이사, 이제는 발품 대신 클릭하세요.</span>
+        </a>
+        <a href="https://movinglkindz.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이사비교견적</span>
+            <span class="link-desc">여러 업체의 제안을 한눈에! 선택의 고민을 즐거움으로 바꿉니다.</span>
+        </a>
+        <a href="https://movingmkinda.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이사비교</span>
+            <span class="link-desc">A부터 Z까지, 깐깐하게 비교하고 똑똑하게 이사하는 비법.</span>
+        </a>
+        <a href="https://movingmkindd.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">20평대이사비용</span>
+            <span class="link-desc">우리 집에 꼭 맞는 견적, 20평대의 표준 이사비를 공개합니다.</span>
+        </a>
+        <a href="https://movingmkindp.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이사비교사이트</span>
+            <span class="link-desc">이사 업계의 내비게이션! 가장 빠른 최적의 경로를 찾아드립니다.</span>
+        </a>
+        <a href="https://movingmkindv.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">요즘이사비용</span>
+            <span class="link-desc">트렌드에 맞는 합리적인 가격 정책, 요즘 사람들의 선택은?</span>
+        </a>
+        <a href="https://movingokindw.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이사견적서</span>
+            <span class="link-desc">종이 한 장에 담긴 진심, 명확하고 투명한 견적의 정석.</span>
+        </a>
+    </div>
+
+    <div class="category-section">
+        <div class="category-title">📦 철저한 보관 & 보관이사</div>
+        <a href="https://movinglkindq.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">짐보관창고</span>
+            <span class="link-desc">당신의 소중한 추억들, 쾌적하고 안전한 쉼터에서 잠시 쉬어갑니다.</span>
+        </a>
+        <a href="https://movinglkindr.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">컨테이너짐보관</span>
+            <span class="link-desc">강철 컨테이너의 견고함으로 어떤 기후에도 당신의 짐을 보호합니다.</span>
+        </a>
+        <a href="https://movinglkindx.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이삿짐보관료</span>
+            <span class="link-desc">하루를 보관해도 정직하게, 합리적인 요금 체계를 제안합니다.</span>
+        </a>
+        <a href="https://movingmkindb.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">컨테이너보관비용</span>
+            <span class="link-desc">공간을 빌리는 가장 스마트한 방법, 비용 효율성을 극대화했습니다.</span>
+        </a>
+        <a href="https://movingmkinde.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이사보관</span>
+            <span class="link-desc">입주 날짜가 안 맞을 때? 마법처럼 해결해 드리는 이사 보관 솔루션.</span>
+        </a>
+        <a href="https://movingmkindz.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">부산이삿짐보관비용</span>
+            <span class="link-desc">부산 어디서나 접근성 좋은 보관소, 가격까지 시원하게 오픈합니다.</span>
+        </a>
+        <a href="https://movingnkindk.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">포장이사보관</span>
+            <span class="link-desc">포장한 그대로 보관했다가, 그대로 풀어드리는 프리미엄 풀코스.</span>
+        </a>
+        <a href="https://movingokinda.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이삿짐장기보관</span>
+            <span class="link-desc">오랜 시간 자리를 비워도 걱정 마세요. 처음처럼 깨끗하게 보관합니다.</span>
+        </a>
+    </div>
+
+    <div class="category-section">
+        <div class="category-title">🚛 톤수별 & 장비 맞춤 이사</div>
+        <a href="https://movinglkindo.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">2.5톤이사</span>
+            <span class="link-desc">부담스럽지 않은 규모, 1인 가구나 소형 가구에 최적화된 기동력.</span>
+        </a>
+        <a href="https://movinglkindw.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">사다리차이사비용</span>
+            <span class="link-desc">높은 곳으로의 이동도 안전하게, 사다리차의 경제적 이용 가이드.</span>
+        </a>
+        <a href="https://movingmkindr.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">사다리차이사</span>
+            <span class="link-desc">하늘을 가로지르는 안전한 짐의 통로, 베테랑 기사님이 함께합니다.</span>
+        </a>
+        <a href="https://movingmkindu.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이삿짐5톤</span>
+            <span class="link-desc">한 번에 시원하게! 대가족 이사도 5톤 트럭 한 대로 넉넉하게.</span>
+        </a>
+        <a href="https://movingnkinde.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">5톤이사</span>
+            <span class="link-desc">당신의 모든 살림을 든든하게 받쳐줄 대형 운송의 정석.</span>
+        </a>
+        <a href="https://movingnkindj.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">6톤이사비용</span>
+            <span class="link-desc">조금 더 여유로운 공간, 6톤 차량의 견적을 명확히 제시합니다.</span>
+        </a>
+        <a href="https://movingnkindz.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">7톤이사비용</span>
+            <span class="link-desc">압도적 규모의 이사도 문제없습니다. 대형 평수 전문 견적 서비스.</span>
+        </a>
+        <a href="https://movingrkinda.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">2톤이사</span>
+            <span class="link-desc">컴팩트하지만 강력한 서비스, 미니멀 라이프를 위한 맞춤 차량.</span>
+        </a>
+    </div>
+
+    <div class="category-section">
+        <div class="category-title">🗺️ 전국 팔도 사통팔달 이사</div>
+        <a href="https://movinglkindp.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">광주광산구포장이사</span>
+            <span class="link-desc">빛고을 광주의 열정을 담아, 광산구 구석구석 정성을 배달합니다.</span>
+        </a>
+        <a href="https://movingmkindl.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">군산이사</span>
+            <span class="link-desc">시간이 멈춘 듯 평화로운 군산에서, 새로운 시간을 열어드립니다.</span>
+        </a>
+        <a href="https://movingmkindm.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">전주사무실이사</span>
+            <span class="link-desc">맛과 멋의 고장 전주, 당신의 비즈니스도 예술처럼 옮겨드립니다.</span>
+        </a>
+        <a href="https://movingmkindn.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">여수이사업체</span>
+            <span class="link-desc">여수 밤바다의 낭만을 깨지 않는 조용하고 질서 있는 무빙 서비스.</span>
+        </a>
+        <a href="https://movingmkindq.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">전국이사</span>
+            <span class="link-desc">대한민국 어디라도 좋습니다. 지도로 이어진 모든 곳이 우리 영역입니다.</span>
+        </a>
+        <a href="https://movingnkindo.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">전주포장이사추천</span>
+            <span class="link-desc">전주 시민들의 까다로운 안목을 통과한 검증된 이사 팀.</span>
+        </a>
+        <a href="https://movingokindf.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">오창이사</span>
+            <span class="link-desc">첨단 도시 오창에 어울리는 스마트하고 세련된 이사 프로세스.</span>
+        </a>
+        <a href="https://movingokindk.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">전주이삿짐</span>
+            <span class="link-desc">한옥의 단아함처럼, 당신의 짐도 정갈하게 정리해 드립니다.</span>
+        </a>
+    </div>
+
+    <div class="category-section">
+        <div class="category-title">✨ 특별한 순간, 맞춤 이사</div>
+        <a href="https://movinglkindj.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">주말이사</span>
+            <span class="link-desc">평일은 바쁜 당신을 위해, 소중한 주말을 완벽한 시작으로 채워드립니다.</span>
+        </a>
+        <a href="https://movinglkindl.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이삿짐정리</span>
+            <span class="link-desc">이사보다 힘든 정리정돈, 전문가의 손길로 마법 같은 공간을 경험하세요.</span>
+        </a>
+        <a href="https://movingmkindt.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">포장이사입주청소</span>
+            <span class="link-desc">이사 후 청소 걱정 끝! 먼지 하나 없는 새 출발을 선사합니다.</span>
+        </a>
+        <a href="https://movingnkindb.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">인테리어보관이사</span>
+            <span class="link-desc">인테리어 공사 중 방황하는 짐들을 위한 가장 안전한 안식처.</span>
+        </a>
+        <a href="https://movingnkindu.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">같은아파트이사</span>
+            <span class="link-desc">가까운 거리라도 방심 금지! 이웃사촌처럼 다정하게 옮겨드립니다.</span>
+        </a>
+        <a href="https://movingokindc.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">하루보관이사</span>
+            <span class="link-desc">단 하루의 공백도 완벽하게 메워주는 초단기 보관 마스터.</span>
+        </a>
+        <a href="https://movingokindd.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">오후이사</span>
+            <span class="link-desc">아침잠이 많은 당신을 위한 여유로운 오후의 이사 파티.</span>
+        </a>
+        <a href="https://movingpkindz.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">포장이사주의사항</span>
+            <span class="link-desc">이사 고수들만 아는 꿀팁 전수! 실패 없는 이사를 위한 지침서.</span>
+        </a>
+    </div>
+
+    <div class="category-section">
+        <div class="category-title">💡 이사의 모든 것</div>
+        <a href="https://movingrkindn.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이삿집센터</span>
+            <span class="link-desc">내 집처럼 포근하게, 이사 그 이상의 가치를 전달하는 센터.</span>
+        </a>
+        <a href="https://movingrkindp.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이사비용문의</span>
+            <span class="link-desc">궁금한 건 참지 마세요! 무엇이든 물어보시면 즉시 답변해 드립니다.</span>
+        </a>
+        <a href="https://movingrkindi.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이사허가업체</span>
+            <span class="link-desc">불안한 무허가 업체는 NO! 법적 보호를 받는 공식 업체만 연결합니다.</span>
+        </a>
+        <a href="https://movingqkinda.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이사카드결제</span>
+            <span class="link-desc">현금 결제 강요 없는 투명한 세상, 카드로 편하게 결제하세요.</span>
+        </a>
+        <a href="https://movingpkindm.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">가전제품보관</span>
+            <span class="link-desc">예민한 가전제품도 항온항습실에서 새것처럼 안전하게 보관.</span>
+        </a>
+        <a href="https://movingrkindo.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">일반이사가격</span>
+            <span class="link-desc">실속파들을 위한 담백한 이사 비용 제안서.</span>
+        </a>
+        <a href="https://movingqkinds.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이사짐센터비교</span>
+            <span class="link-desc">치열한 경쟁 속에서 살아남은 진정한 이사 고수들을 선별했습니다.</span>
+        </a>
+        <a href="https://movingrkindq.withusgoat.com" target="_blank" class="link-item">
+            <span class="link-name">이사짐센타</span>
+            <span class="link-desc">우리 동네 구석구석을 잘 아는 친근한 이웃 같은 이사 파트너.</span>
+        </a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Moving Platform. 모든 정보는 링크를 통해 자세히 확인하실 수 있습니다.</p>
+</footer>
+
+<script>
+    // 페이지 로드 시 카테고리 섹션의 순서를 랜덤으로 섞음
+    window.onload = function() {
+        const container = document.querySelector('.container');
+        const sections = Array.from(container.children);
+        sections.sort(() => Math.random() - 0.5);
+        sections.forEach(section => container.appendChild(section));
+
+        // 각 섹션 내의 링크 아이템들도 랜덤으로 섞음
+        const categorySections = document.querySelectorAll('.category-section');
+        categorySections.forEach(section => {
+            const links = Array.from(section.querySelectorAll('.link-item'));
+            links.sort(() => Math.random() - 0.5);
+            links.forEach(link => section.appendChild(link));
+        });
+    };
+</script>
+
+</body>
 </html>
